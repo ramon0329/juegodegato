@@ -1,0 +1,61 @@
+
+ *{
+    margin: 0;
+   padding: 0;
+   box-sizing: 0;
+}
+
+body, html{
+    height: 50%;
+}
+
+main{
+    height: 30%;
+}
+
+.contenedor{
+   margin-top: 10px;
+   width: 30%;
+   height: 400%;
+   margin-left: auto;
+   margin-right: auto;
+   display: grid;
+   border: 1px solid blue;
+   justify-items: stretch;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   column-gap: 3px;
+   row-gap: 3px;
+   
+   font-size: 5em;
+   
+   background-color: red;
+   
+}
+
+.cuadro {
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+
+
+}
+
+.nav{
+   background-color: greenyellow;
+}
+
+.nav p{
+   font-size: 10px;
+   text-align: center;
+}
+
+.rojo{
+   background-color: darkorange;
+}
+
+.verde{
+   background-color: violet;
+}
